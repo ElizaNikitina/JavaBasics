@@ -5,7 +5,7 @@ public class Methods {
 	//cteate a method that will say welcome 10 times
 	
 	void sayWelcome() {
-		for(int a=0; a<10;a++) {
+		for(int a=0; a<5;a++) {
 			System.out.println("Welcome");
 		}
 	}
@@ -32,8 +32,11 @@ public class Methods {
 		
 		Methods m1=new Methods();
 		m1.sayWelcome();
+		System.out.println("=====");
 		m1.sayAnyWord("Don`t know",2);
+		System.out.println("=====");
 		m1.isItRaining(true);
+		System.out.println("=====");
 		m1.isItRaining(false);
 		
 	}
