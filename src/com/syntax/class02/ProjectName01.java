@@ -1,4 +1,4 @@
-package com.synrax.class02;
+package com.syntax.class02;
 
 public class ProjectName01 {
 

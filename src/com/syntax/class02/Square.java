@@ -1,4 +1,4 @@
-package com.synrax.class02;
+package com.syntax.class02;
 
 public class Square {
 	public static void main(String[] arg) {

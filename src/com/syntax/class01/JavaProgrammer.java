@@ -1,4 +1,4 @@
-package com.synrax.class01;
+package com.syntax.class01;
 
 public class JavaProgrammer {
 	//This is my second Java Program
