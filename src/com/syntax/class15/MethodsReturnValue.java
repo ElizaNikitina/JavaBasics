@@ -53,4 +53,6 @@ public class MethodsReturnValue {
 			return isOdd;
 		}
 
+	
+	
 }
