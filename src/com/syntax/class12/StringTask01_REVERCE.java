@@ -1,6 +1,6 @@
 package com.syntax.class12;
 
-public class StringTask01 {
+public class StringTask01_REVERCE {
 
 	public static void main(String[] args) {
 
