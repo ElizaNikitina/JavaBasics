@@ -7,10 +7,10 @@ public class Task02_reverce {
 	//Method should be available to all classes 
 	//within your projects and accessible by class name.
 	
-	String rev = "";
 	
- public String name(String one) {
-	 
+	
+ public static String name(String one) {
+	 String rev = "";
 	 for (int i = one.length() - 1; i >= 0; i--) {
 			rev +=  one.charAt(i);
 		}
@@ -20,5 +20,7 @@ public class Task02_reverce {
  public static void main(String[] args) {
 	Task02_reverce  obj = new Task02_reverce ();
 	System.out.println(obj.name("accessible everywhere"));
+	
+	String a = Task02_reverce.name("Hello");
 }
 }

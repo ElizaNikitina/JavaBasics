@@ -15,9 +15,20 @@ public class Task03_Vowels {
 	}
 		return newString;
 	}
+	
+	private static String getVowels(String newStr) {
+		String vowels;
+	     vowels = newStr.replaceAll("[^aeiouAEIOU]", "");
+	     return vowels;
+	}
+	
 
 	public static void main(String[] args) {
 		Task03_Vowels obj = new Task03_Vowels();
 		System.out.println(obj.showVowels("Manipulation"));
+		
+		String b = obj.getVowels("Hello");
+		System.out.println(b);
+		
 	}
 }
