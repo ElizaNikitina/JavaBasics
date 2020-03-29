@@ -4,16 +4,16 @@ public class Constructor {
 
 	static String str = "Hello";
 
-	Constructor() {
+	public Constructor() {
 		System.out.println("I am your constructor");
 		System.out.println("I am non argument constructor");
 	}
 
-	Constructor(String a) {
+	protected  Constructor(String a) {
 		System.out.println("I am a constructor with 1 String parametr " + a);
 	}
 	
-	Constructor(int b) {
+	private Constructor(int b) {
 		System.out.println("I am a constructor with 1 integer parametr " + b);
 	}
 //	Constructor(int b) {
