@@ -1,14 +1,19 @@
 package com.syntax.class24;
 
 public abstract class Vehicle {
+	static int totalVehicle;
+	
 
 	String color;
 
 	Vehicle(String color) {
 		this.color = color;
 	}
+	public static void total() {
+		System.out.println("We build " + totalVehicle );
+	}
 
-	public void driveO() {
+	public void drive() {
 		System.out.println("Vehicle can drive");
 	}
 
@@ -54,13 +59,16 @@ class Tesla extends Car {
 
 class Toyota extends Car {
 
+
+	String make;
+
 	Toyota(String color, String carType, String make) {
-		super(color, carType, make);
-}
+		super(color, carType);
+		this.make=make;
+	}
 
 	@Override
 	public void start() {
-		// TODO Auto-generated method stub
-		
-	}
+		System.out.println(make+ "starts keyless");
+	}	
 }
