@@ -37,8 +37,8 @@ public class ArrayListDemo {
 		System.out.println(arrayList);
 		
 		//how to retrieve values from arraylist 1 by 1?
-		for(int i=0; i<arrayList.size(); i++) {
-			String element=arrayList.get(i);
+		for(int i=0; i<arrayList.size); i++) {
+			String element=ar(rayList.get(i);
 			System.out.println(element);
 		}
 		System.out.println("------------------------");

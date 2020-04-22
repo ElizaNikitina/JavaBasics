@@ -84,5 +84,17 @@ public class UserDefinedClassesInMap {
 			entry.getValue().display();
 			System.out.println("--------------------------");
 		}
+		
+		
+		//3.way -->get all keys ---> get value of spesified key
+		
+		Set<Integer>keys = storeMap.keySet();
+		for(Integer key:keys) {
+			storeMap.get(key).display();
+			storeMap.get(key).workingHours();
+		}
 	}
 }
+
+	
+		
