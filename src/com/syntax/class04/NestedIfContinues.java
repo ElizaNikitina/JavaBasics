@@ -8,7 +8,7 @@ public class NestedIfContinues {
 		
 		
 		boolean allergy = true;
-		boolean noAllergy = false;
+		//boolean noAllergy = false;
 		boolean orangeAllergy = true;
 		boolean kiwiAllergy = true;
 		
